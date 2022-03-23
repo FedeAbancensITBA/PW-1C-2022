@@ -1,7 +1,35 @@
+:root {
+    --purple-navy: #474779;
+    --blue-jeans: #00A6FB;
+    --outrageous-orange: #FC7753;
+    --naples-yellow: #F9DC5C;
+    --mint-cream: #F4FFFD;
+}
+
 h1 {
     color: rgb(71, 71, 121);
 }
 
 body {
     font-family: monospace;
+}
+
+.color1 {
+    background-color: var(--purple-navy);
+    color: white;
+}
+
+.color2 {
+    background-color: var(--blue-jeans);
+    color: white;
+}
+
+.color3 {
+    background-color: var(--outrageous-orange);
+    color: white;
+}
+
+.color4 {
+    background-color: var(--naples-yellow);
+    color: white;
 }
