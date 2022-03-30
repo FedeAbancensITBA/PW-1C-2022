@@ -6,33 +6,22 @@
     --mint-cream: #F4FFFD;
 }
 
-body {
-    font-family: monospace;
-    margin: 0;
-}
-
-
-/*h1 {
-    margin: 0px;
-}
-
-p {
-    margin: 0px;
-}*/
-
 .color1 {
     background-color: var(--purple-navy);
     color: white;
+    padding: 1%;
 }
 
 .color2 {
     background-color: var(--blue-jeans);
     color: white;
+    padding: 1%;
 }
 
 .color3 {
     background-color: var(--outrageous-orange);
     color: white;
+    padding: 1%;
 }
 
 .color4 {
@@ -40,16 +29,10 @@ p {
     color: white;
 }
 
-.contenedor {
-    padding: 2%;
+.iconosaac {
+    height: 25%;
 }
 
-#col-der {
-    width: 50%;
-    float: right;
-}
-
-#col-izq {
-    width: 50%;
-    float: left;
+.sectionicon {
+    background-color: var(--naples-yellow);
 }
