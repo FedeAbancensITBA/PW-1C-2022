@@ -94,3 +94,76 @@ button:focus {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
+#overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #999;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 100;
+}
+
+#popup {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    width: 400px;
+    height: auto;
+    margin-left: -200px;
+    /*Half the value of width to center div*/
+    margin-top: -200px;
+    /*Half the value of height to center div*/
+    z-index: 200;
+    border-radius: 8px;
+}
+
+#popupclose {
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.popupcontent {
+    padding: 10px;
+}
+
+#button {
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    width: 25%;
+}
+
+#button:hover {
+    background-color: white;
+    color: #FFB866;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 18px 0;
+    box-sizing: border-box;
+    border: 1px solid #199BD8;
+    border-radius: 4px;
+}
+
+.formulario {
+    padding: 20px 20px;
+}
+
+.generar {
+    width: 100%;
+    border: 2px solid #199BD8;
+    border-radius: 4px;
+    background-color: #199BD8;
+    color: white;
+}

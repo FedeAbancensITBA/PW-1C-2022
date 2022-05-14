@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Vertical Slider</title>
-    <script src="Dosis-Semibold-normal.js"></script>
-    <script src="https://parall.ax/parallax/js/jspdf.js"></script>
+    <script src="https://cdn.rawgit.com/yWorks/jsPDF/e2a73c5b/dist/jspdf.min.js"></script>
     <script src="crearCert.js"></script>
-
+    <script src="https://cdn.rawgit.com/sphilee/jsPDF-CustomFonts-support/bcc544cd/dist/jspdf.customfonts.min.js"></script>
+    <script src="https://cdn.rawgit.com/sphilee/jsPDF-CustomFonts-support/bcc544cd/dist/default_vfs.js"></script>
 
 </head>
 
@@ -31,8 +31,9 @@
                 <p>in the wilderness</p>
             </div>
             <div style="background-color: #FFB866">
-                <h1>Flying eagle</h1>
-                <p>in the sunset</p>
+                <h1>Generar Certificados</h1>
+                <p>con un simple formulario</p><br>
+                <button id="button">Crear!</button>
             </div>
         </div>
         <div class="right-slide">
@@ -50,13 +51,21 @@
         </button>
         </div>
     </div>
+    <div id="overlay"></div>
+    <div id="popup">
+        <div class="popupcontrols">
+            <span id="popupclose">X</span>
+        </div>
+        <div class="popupcontent">
+            <div class="formulario">
+                <h3>Crear Certificado - FUNDEMOS</h3>
+                <input type="text" id="nombre" placeholder="Nombre y Apellido"><br>
+                <button class="generar" onclick="certFundemos()">Generar</button>
+            </div>
 
-    <input type="text" id="nombre" placeholder="Nombre y Apellido"><br>
-    <button onclick="createPDF()">Generar</button>
+        </div>
+    </div>
     <script src="script.js"></script>
-
-
-
 </body>
 
 
